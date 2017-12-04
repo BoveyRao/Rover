@@ -3,7 +3,7 @@ import visualizer as vis
 import copy
 import math
 
-# load ieghtmap file as list of [x, y, height]
+# load heightmap file as list of [x, y, height]
 inputfile = open('coordinates.txt')
 lines = inputfile.read()[2:-2].split('), (')
 
